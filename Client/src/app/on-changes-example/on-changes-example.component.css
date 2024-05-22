@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    gap: 10vh;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+}
