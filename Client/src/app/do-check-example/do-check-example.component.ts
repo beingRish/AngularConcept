@@ -7,7 +7,7 @@ import { Component, DoCheck, Input, OnInit } from '@angular/core';
 })
 export class DoCheckExampleComponent implements DoCheck, OnInit{
 
-  title = 'ngDoCheck Example'
+  title = 'ngDoCheck'
 
   @Input() user?: {
     name: String,

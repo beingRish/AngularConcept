@@ -13,6 +13,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { OnChangesExampleComponent } from './on-changes-example/on-changes-example.component';
 import { OnInitExampleComponent } from './on-init-example/on-init-example.component';
 import { DoCheckExampleComponent } from './do-check-example/do-check-example.component';
+import { NgaftercontentinitNgaftercontentcheckedComponent } from './ngaftercontentinit-ngaftercontentchecked/ngaftercontentinit-ngaftercontentchecked.component';
+import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { DoCheckExampleComponent } from './do-check-example/do-check-example.com
     OnChangesExampleComponent,
     OnInitExampleComponent,
     DoCheckExampleComponent,
+    NgaftercontentinitNgaftercontentcheckedComponent,
+    NgOnDestroyComponent,
   ],
   imports: [
     BrowserModule,

@@ -7,7 +7,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 })
 export class OnChangesExampleComponent implements OnChanges {
 
-  title = 'ngOnChanges Example'
+  title = 'ngOnChanges'
 
   @Input() inputValue?: number;
   currentValue?: number;

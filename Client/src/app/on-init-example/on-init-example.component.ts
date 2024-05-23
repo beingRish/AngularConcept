@@ -10,7 +10,7 @@ export class OnInitExampleComponent implements OnInit{
 
   items: string[] = [];
 
-  title = 'ngOnInit Example'
+  title = 'ngOnInit'
 
   constructor(private dataService: DataService){}
 
