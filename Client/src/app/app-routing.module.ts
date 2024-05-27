@@ -10,6 +10,8 @@ import { AngularFormComponent } from './angular-form/angular-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { LifeCycleHookComponent } from './life-cycle-hook/life-cycle-hook.component';
+import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/share-data-input-decorator.component';
+import { DataSharingComponent } from './data-sharing/data-sharing.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/departments', pathMatch: 'full'},
@@ -27,6 +29,7 @@ const routes: Routes = [
   { path: 'tdf', component: TemplateDrivenFormComponent },
   { path: 'reactive', component: ReactiveFormComponent },
   { path: 'lifeCycleHook', component: LifeCycleHookComponent},
+  { path: 'dataSharing', component: DataSharingComponent},
   { path: "**", component: PageNotFoundComponent },
   
 ];
@@ -47,4 +50,5 @@ export const routingComponents = [
   ReactiveFormComponent,
   TemplateDrivenFormComponent,
   LifeCycleHookComponent,
+  DataSharingComponent,
 ]

@@ -15,6 +15,9 @@ import { OnInitExampleComponent } from './on-init-example/on-init-example.compon
 import { DoCheckExampleComponent } from './do-check-example/do-check-example.component';
 import { NgaftercontentinitNgaftercontentcheckedComponent } from './ngaftercontentinit-ngaftercontentchecked/ngaftercontentinit-ngaftercontentchecked.component';
 import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
+import { DataSharingComponent } from './data-sharing/data-sharing.component';
+import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/share-data-input-decorator.component';
+import { ShareDataOutputDecoratorComponent } from './share-data-output-decorator/share-data-output-decorator.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
     DoCheckExampleComponent,
     NgaftercontentinitNgaftercontentcheckedComponent,
     NgOnDestroyComponent,
+    DataSharingComponent,
+    ShareDataInputDecoratorComponent,
+    ShareDataOutputDecoratorComponent,
   ],
   imports: [
     BrowserModule,
