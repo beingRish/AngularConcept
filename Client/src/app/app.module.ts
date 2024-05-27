@@ -18,6 +18,7 @@ import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
 import { DataSharingComponent } from './data-sharing/data-sharing.component';
 import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/share-data-input-decorator.component';
 import { ShareDataOutputDecoratorComponent } from './share-data-output-decorator/share-data-output-decorator.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ShareDataOutputDecoratorComponent } from './share-data-output-decorator
     DataSharingComponent,
     ShareDataInputDecoratorComponent,
     ShareDataOutputDecoratorComponent,
+    ChildComponent,
   ],
   imports: [
     BrowserModule,

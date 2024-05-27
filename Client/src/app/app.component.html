@@ -1,7 +1,7 @@
 <div style="text-align: center;">
   <h3>{{title}}</h3>
 </div>
-
+<!-- 
 <nav>
   <a routerLink="/departments" routerLinkActive="active">Departments</a>
   <a href="/employees" routerLinkActive="active">Employees</a>
@@ -14,4 +14,10 @@
 <router-outlet></router-outlet>
 
 
+ -->
+
+<app-child [inputValue]="
+"></app-child>
+
+<button (click)="changeValue()">Click</button>
 
