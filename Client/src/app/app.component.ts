@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Practice';
 
-  inputValue : any = 23;
+  // inputValue : any = 23;
 
-  changeValue(){
-    this.inputValue *= this.inputValue;
+  // changeValue(){
+  //   this.inputValue *= this.inputValue;
     
-  }
+  // }
 }
