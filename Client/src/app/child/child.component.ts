@@ -1,23 +1,14 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-child',
   templateUrl: './child.component.html',
   styleUrls: ['./child.component.css']
 })
-export class ChildComponent implements OnChanges {
+export class ChildComponent  {
 
-  @Input() inputValue?: number;
-  currentValue: any = ''
-  previousValue: any = ''
+  @Output() updateDataEvent = new EventEmitter<string>();
 
-  ngOnChanges(changes: SimpleChanges): void {
-
-    if (changes['inputValue']) {
-      this.currentValue = changes['inputValue'].currentValue;
-      this.previousValue = changes['inputValue'].previousValue;
-    }
-  }
-
+  
 }
 

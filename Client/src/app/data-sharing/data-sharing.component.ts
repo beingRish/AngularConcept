@@ -15,6 +15,10 @@ export class DataSharingComponent {
     {name: 'Suryanshu', email: 'surya@gmail.com'},
   ]
 
+  data = "x";
+  updateData(item:string){
+    this.data = item;
+  }
   
 }
 

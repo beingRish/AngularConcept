@@ -1,2 +1,4 @@
-<p>Current Value = {{currentValue}}</p>
-<p>Previous Value = {{previousValue}}</p>
+<h2>Send data child to parent component</h2>
+
+<input type="text" #box>
+<button (click)="updateDataEvent.emit(box.value)">Update Data</button>
