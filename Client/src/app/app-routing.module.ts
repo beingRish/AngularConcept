@@ -14,6 +14,7 @@ import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/s
 import { DataSharingComponent } from './data-sharing/data-sharing.component';
 import { AngularMaterialComponent } from './angular-material/angular-material.component';
 import { UserDataComponent } from './user-data/user-data.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/departments', pathMatch: 'full'},
@@ -34,6 +35,7 @@ const routes: Routes = [
   { path: 'dataSharing', component: DataSharingComponent},
   { path: 'mat', component: AngularMaterialComponent},
   { path: 'serv', component: UserDataComponent},
+  { path: 'viewChild', component: ViewchildComponent},
   { path: "**", component: PageNotFoundComponent },
   
 ];
@@ -56,5 +58,6 @@ export const routingComponents = [
   LifeCycleHookComponent,
   DataSharingComponent,
   AngularMaterialComponent,
-  UserDataComponent
+  UserDataComponent,
+  ViewchildComponent
 ]
