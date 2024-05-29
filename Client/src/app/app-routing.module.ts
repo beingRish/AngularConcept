@@ -13,6 +13,7 @@ import { LifeCycleHookComponent } from './life-cycle-hook/life-cycle-hook.compon
 import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/share-data-input-decorator.component';
 import { DataSharingComponent } from './data-sharing/data-sharing.component';
 import { AngularMaterialComponent } from './angular-material/angular-material.component';
+import { UserDataComponent } from './user-data/user-data.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/departments', pathMatch: 'full'},
@@ -32,6 +33,7 @@ const routes: Routes = [
   { path: 'lifeCycleHook', component: LifeCycleHookComponent},
   { path: 'dataSharing', component: DataSharingComponent},
   { path: 'mat', component: AngularMaterialComponent},
+  { path: 'serv', component: UserDataComponent},
   { path: "**", component: PageNotFoundComponent },
   
 ];
@@ -54,4 +56,5 @@ export const routingComponents = [
   LifeCycleHookComponent,
   DataSharingComponent,
   AngularMaterialComponent,
+  UserDataComponent
 ]

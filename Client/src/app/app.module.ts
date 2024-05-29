@@ -20,6 +20,7 @@ import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/s
 import { ShareDataOutputDecoratorComponent } from './share-data-output-decorator/share-data-output-decorator.component';
 import { ChildComponent } from './child/child.component';
 import { AngularMaterialComponent } from './angular-material/angular-material.component';
+import { UserDataComponent } from './user-data/user-data.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { AngularMaterialComponent } from './angular-material/angular-material.co
     ShareDataOutputDecoratorComponent,
     ChildComponent,
     AngularMaterialComponent,
+    UserDataComponent,
   ],
   imports: [
     BrowserModule,
