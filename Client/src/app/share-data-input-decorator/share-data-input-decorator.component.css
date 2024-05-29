@@ -1,3 +1,8 @@
-h2{
-    padding-top: 40px;
-}
+li {
+    display: inline-block;
+    padding: 10px;
+    width: 30%;
+    background-color: skyblue;
+    border-left: 1px solid orange;
+
+}   

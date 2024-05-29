@@ -1,6 +1,5 @@
+<h2>Showing Users Details from the Parent</h2>
 
-<app-share-data-input-decorator [inputValue]="inputValue"></app-share-data-input-decorator>
-<button onclick="changeValue()">Click</button>
-
-
-<app-share-data-output-decorator></app-share-data-output-decorator>
+<ul *ngFor="let user of users">
+    <app-share-data-input-decorator [item]="user"></app-share-data-input-decorator>
+</ul>

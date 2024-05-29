@@ -6,14 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./data-sharing.component.css']
 })
 export class DataSharingComponent {
-  inputValue : any [] = [];
+  
+  users = [
+    {name: 'Rishabh', email: 'rish@gmail.com'},
+    {name: 'Ritik', email: 'ritz@gmail.com'},
+    {name: 'Vishwjeet', email: 'vishu@gmail.com'},
+    {name: 'Shashank', email: 'shakku@gmail.com'},
+    {name: 'Suryanshu', email: 'surya@gmail.com'},
+  ]
 
-  persons = ['Ritik', 'Vishu', 'Bobby', 'Shakku', 'Antul', 'Shuryanshu', 'Ranjay', 'Prince']
-
-  changeValue(){
-    this.persons.forEach(person => {
-      this.inputValue.push(person);
-    })
-  }
   
 }
+

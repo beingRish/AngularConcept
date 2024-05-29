@@ -5,15 +5,8 @@ import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges } from
   templateUrl: './share-data-input-decorator.component.html',
   styleUrls: ['./share-data-input-decorator.component.css']
 })
-export class ShareDataInputDecoratorComponent implements OnChanges{
+export class ShareDataInputDecoratorComponent{
 
-  @Input() inputValue : any ;
-  changedValue: any;
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if(changes[this.inputValue]){
-      this.changedValue = this.inputValue
-    }
-  }
+  @Input() item : {name: string, email: string} = {name:'', email:''};
   
 }
