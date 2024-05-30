@@ -19,7 +19,7 @@ import { DataSharingComponent } from './data-sharing/data-sharing.component';
 import { ShareDataInputDecoratorComponent } from './share-data-input-decorator/share-data-input-decorator.component';
 import { ShareDataOutputDecoratorComponent } from './share-data-output-decorator/share-data-output-decorator.component';
 import { ChildComponent } from './child/child.component';
-import { CouterComponent } from './viewchild/couter/couter.component';
+import { CounterComponent } from './viewchild/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +39,7 @@ import { CouterComponent } from './viewchild/couter/couter.component';
     ShareDataInputDecoratorComponent,
     ShareDataOutputDecoratorComponent,
     ChildComponent,
-    CouterComponent,
+    CounterComponent,
   ],
   imports: [
     BrowserModule,
