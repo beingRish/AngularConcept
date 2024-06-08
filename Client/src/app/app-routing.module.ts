@@ -10,6 +10,7 @@ import { AngularFormComponent } from './angular-form/angular-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { LifeCycleHookComponent } from './life-cycle-hook/life-cycle-hook.component';
+import { AngularMaterialComponent } from './angular-material/angular-material.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/departments', pathMatch: 'full'},
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: 'form', component: AngularFormComponent },
   { path: 'tdf', component: TemplateDrivenFormComponent },
   { path: 'reactive', component: ReactiveFormComponent },
+  { path: 'mat', component: AngularMaterialComponent },
   { path: 'lifeCycleHook', component: LifeCycleHookComponent},
   { path: "**", component: PageNotFoundComponent },
   
@@ -47,4 +49,6 @@ export const routingComponents = [
   ReactiveFormComponent,
   TemplateDrivenFormComponent,
   LifeCycleHookComponent,
+  AngularMaterialComponent,
+
 ]

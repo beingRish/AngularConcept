@@ -15,6 +15,8 @@ import { OnInitExampleComponent } from './on-init-example/on-init-example.compon
 import { DoCheckExampleComponent } from './do-check-example/do-check-example.component';
 import { NgaftercontentinitNgaftercontentcheckedComponent } from './ngaftercontentinit-ngaftercontentchecked/ngaftercontentinit-ngaftercontentchecked.component';
 import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
+import { AngularMaterialComponent } from './angular-material/angular-material.component';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
     DoCheckExampleComponent,
     NgaftercontentinitNgaftercontentcheckedComponent,
     NgOnDestroyComponent,
+    AngularMaterialComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +40,7 @@ import { NgOnDestroyComponent } from './ng-on-destroy/ng-on-destroy.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    MatButtonModule,
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
