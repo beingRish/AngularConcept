@@ -1,0 +1,9 @@
+<h2>Showing Users Details from the Parent</h2>
+
+<ul *ngFor="let user of users">
+    <app-share-data-input-decorator [item]="user"></app-share-data-input-decorator>
+</ul>
+
+<h1>{{ data }}</h1>
+
+<app-child (updateDataEvent)="updateData($event)"></app-child>
